@@ -1,6 +1,4 @@
 import React from 'react';
-import HelloSkia from '@/components/HelloSkia';
+import HelloSkia from '@/components/skia/HelloSkia';
 
-const DemoComponent = () => <HelloSkia />;
-
-export default DemoComponent; 
+export const DemoSkia = () => <HelloSkia />;

@@ -1,6 +1,6 @@
 import React from 'react';
-import DemoComponent from '@/components/skia/skia';
+import { DemoSkia } from '@/components/skia/skia';
 
-const App = () => <DemoComponent />;
+const App = () => <DemoSkia />;
 
 export default App;

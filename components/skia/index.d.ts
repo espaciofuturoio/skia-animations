@@ -1,4 +1,3 @@
 declare module '@/components/skia/skia' {
-    const SkiaComponent: React.ComponentType;
-    export default SkiaComponent;
+    export const DemoSkia: React.ComponentType;
 }
