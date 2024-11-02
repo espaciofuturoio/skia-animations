@@ -1,4 +1,4 @@
 import React from 'react';
-import HelloSkia from '@/components/skia/HelloSkia';
+import Join from '@/components/skia/join';
 
-export const DemoSkia = () => <HelloSkia />;
+export const DemoSkia = () => <Join />;

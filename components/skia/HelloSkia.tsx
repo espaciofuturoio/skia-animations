@@ -10,9 +10,8 @@ const HelloSkia = () => {
       <Text>Hello Skia X</Text>
       <Canvas style={{ width, height }}>
         <Group blendMode="screen">
-          <Circle cx={r} cy={r} r={r} color="red" />
-          <Circle cx={width - r} cy={r} r={r} color="green" />
-          <Circle cx={width / 2} cy={height - r} r={r} color="blue" />
+          <Circle cx={r} cy={r} r={r} color="red" data-id="color1" />
+          <Circle cx={width - r} cy={r} r={r} color="green" data-id="color2" />
         </Group>
       </Canvas>
     </View>
